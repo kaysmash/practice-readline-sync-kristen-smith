@@ -1,0 +1,15 @@
+const readline = require('readline-sync');
+
+let nameFirst = readline.question("What is your first name? ");
+let nameLast = readline.question("What is your last name? ");
+console.log("Hello, " + nameFirst + " " + nameLast + "!");
+
+let questionOne = readline.question("What type of date type is a Boolean? ");
+let questionTwo = readline.question("What kind of object stores an ordered list of values? ");
+let questionThree = readline.questionInt("What is the number that can be classified as falsy? ");
+let questionFour = readline.question("What are the two kinds of type conversions? ");
+let questionFive = readline.question("Describe readline-sync. ");
+console.log("You've answered: " + questionOne + ", " + questionTwo + ", " + questionThree + ", " + questionFour + ", and " + questionFive + ".");
+
+let confirm = readline.question("Submit answers? ");
+console.log("Your answers have been submitted! ");
